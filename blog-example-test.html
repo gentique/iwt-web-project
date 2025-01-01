@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blog - My Responsive Website</title>
+  <title>Single Blog Post - My Responsive Website</title>
   <!-- Bootstrap CSS -->
   <link
     rel="stylesheet"
@@ -49,23 +49,41 @@
   </header>
 
   <div class="container my-5">
-    <h1 class="ng-page-title">Blog</h1>
+    <h1 class="ng-page-title">Single Blog Title</h1>
     <p class="ng-text">
-      Stay updated with our latest insights, tutorials, and industry trends.
+      Example text Genti. This is a single blog post page. It's a great place to share in-depth information about a particular topic, project, or idea. You can include images, links, and other media to help illustrate your points.
     </p>
-    <ul class="list-group">
-      <li class="list-group-item">
-        <a href="blog-example-test.html" class="ng-blog-link">How to Build a Responsive Website</a>
-      </li>
-      <li class="list-group-item">
-        <a href="blog-single.html" class="ng-blog-link">Top 5 JavaScript Frameworks in 2025</a>
-      </li>
-      <li class="list-group-item">
-        <a href="blog-single.html" class="ng-blog-link">Bootstrap: Tips &amp; Tricks for Developers</a>
-      </li>
-    </ul>
+    <p class="ng-text">
+      Feel free to add more paragraphs, images, or relevant information here. The goal is to illustrate how an individual blog post page might look on your website.
+    </p>
+    <div class="responsive-iframe-container">
+      <iframe
+        src="https://www.youtube.com/embed/EAx_RtMKPm8?si=Lo7NQcHbapV6CPsV"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
-
+  
+  <style>
+    .responsive-iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    }
+    .responsive-iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+  
   <!-- Footer -->
   <footer class="bg-light text-center py-3 mt-3">
     <p class="mb-0">© 2025 My Responsive Website. All Rights Reserved.</p>
