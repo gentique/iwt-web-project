@@ -24,25 +24,25 @@ This project demonstrates a responsive, 10-page website adhering to best web dev
 
 ## Project Structure
 my-responsive-website/
-├── index.html
-├── about.html
-├── services.html
-├── portfolio.html
-├── blog.html
-├── blog-single.html
-├── pricing.html
-├── faq.html
-├── team.html
-├── contact.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   ├── logo.png
-│   ├── placeholder.jpg
-│   └── sample-video.mp4  (optional)
-└── README.md
+├── index.html 
+├── about.html 
+├── services.html 
+├── portfolio.html 
+├── blog.html 
+├── blog-single.html 
+├── pricing.html 
+├── faq.html 
+├── team.html 
+├── contact.html 
+├── css/ 
+│   └── style.css 
+├── js/ 
+│   └── script.js 
+├── images/ 
+│   ├── logo.png 
+│   ├── placeholder.jpg 
+│   └── sample-video.mp4  (optional) 
+└── README.md 
 
 ## Technologies
 - **HTML5**
